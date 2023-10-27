@@ -1,0 +1,77 @@
+body{
+    background-color:#E1EBEE ;
+ } 
+.container-1,.intro,.helo,.para,.dot,.big,.heading,.center{
+    display: grid;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.prof,.cat{
+    border-radius: 50% ;
+}
+.para1{
+    width:500px;
+    
+}
+.para1,p {
+    font-family: cursive;
+}
+h1,heading,h3,button{
+    color: rgb(28, 37, 119);
+}
+h1,heading{
+    
+    font-family: "Times New Roman", Times, serif;
+   font-size: 50px;
+   font-weight: normal;
+   font-style: normal;
+     /* Additional font properties can be set here */  
+     }
+    
+.container-skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1frr 1fr;
+    width: 1000px;
+
+}
+.heading{
+    grid-column: span 2;
+}
+.centeri{
+   display: grid;
+   justify-content: end;
+   align-items: center;
+}
+.centerp{
+    display: grid;
+   justify-content: start;
+   align-items: center; 
+}
+.container-contact{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+button{
+    background-color:rgb(28, 37, 119) ;
+    color:aliceblue;
+    border: none;
+    border-radius:5px ;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(58, 67, 145);
+}
+.bottom{
+        background-color: #5072A7;
+        color: aliceblue;
+    }
+.fm{
+    color: aliceblue;  
+}  
